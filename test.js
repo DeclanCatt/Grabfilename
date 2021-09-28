@@ -21,7 +21,7 @@ ftsf.get().then(seed => {
     seed.getFileTree("C:\\Users\\Steve\\onedrive\\desktop\\").then(tree => {
    
     filelist = filelist.concat(tree.files)
-    persist(filelist,"results.json")
+    persist(filelist,"resourceList.json")
 
     });
 });
