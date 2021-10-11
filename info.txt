@@ -1,0 +1,5 @@
+redis user = root 
+ubuntu server redis-cli
+cstream npm run start:dev
+node app.js
+
